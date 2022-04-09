@@ -103,7 +103,7 @@ void Ros_Server_High::RobotControl()
     ROS_INFO_THROTTLE(1, "speedLevel          %d", cmd.speedLevel);
     ROS_INFO_THROTTLE(1, "footRaiseHeight     %f", cmd.footRaiseHeight);
     ROS_INFO_THROTTLE(1, "bodyHeight          %f", cmd.bodyHeight);
-    ROS_INFO_THROTTLE(1, "position            %f %f", cmd.postion[0], cmd.postion[1]);
+    ROS_INFO_THROTTLE(1, "position            %f %f", cmd.position[0], cmd.position[1]);
     ROS_INFO_THROTTLE(1, "euler               %f %f %f", cmd.euler[0], cmd.euler[1], cmd.euler[2]);
     ROS_INFO_THROTTLE(1, "velocity            %f %f", cmd.velocity[0], cmd.velocity[1]);
     ROS_INFO_THROTTLE(1, "yawSpeed            %f", cmd.yawSpeed);
